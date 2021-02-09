@@ -44,3 +44,9 @@
   align-items: flex-start;
 
 }
+
+.home-background {
+  background-image: url('https://i.imgur.com/CWeKPSu.jpg');
+  height: 100px;
+  width: 100px;
+}
