@@ -54,11 +54,15 @@
 }
 
 .bikes {
-  color: yellow;
-  font-family: monotype-grotesque-display-condensed;
+  font-family: 'Heebo', sans-serif;
+  color: #ffd000;
   font-weight: 700;
   font-style: normal;
   letter-spacing: .01em;
   text-transform: none;
   line-height: 1.1em;
+  display: block;
+  background: transparent;
+  font-size: 30.33px;
+  
 }
