@@ -1,47 +1,33 @@
 import React from 'react';
-import {Card, Button, Nav} from 'react-bootstrap';
+import { Navbar, NavDropdown, Nav} from 'react-bootstrap';
 
 function HomePage() {
     return (
- 
-        <Card className="home-background" >
-        <Card.Img src="https://i.imgur.com/HPBFCW7.jpg" alt="Card image" />
-        <Card.ImgOverlay>
-        <img
+        <Navbar bg="transparent" expand="lg">
+    <div>
+    <img
         src="https://i.imgur.com/DFjZCkS.png"
         className="navbar-logo"
-        alt="scarablogo"
+        alt="React Bootstrap logo"
       />
-        <Nav className="justify-content-end">
-    <Nav.Item>
-      <Nav.Link href="/home" className="bikes">BIKES</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1" className="bikes">JOURNAL</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2" className="bikes">PROCESS</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2"className="bikes">CONTACT</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Button className="order-now">
-        order a bike
-      </Button>
-    </Nav.Item>
-  </Nav>
-          <Card.Title className="title1">Hi, I'm JP.</Card.Title>
-          <Card.Text className="description">
-            I'm a full stack web developer. 
-          </Card.Text>
-          <div className="button">
+    </div>
        
-          <Button variant="light" size="lg" >Get in Touch</Button> {' '}
-          </div>
-        </Card.ImgOverlay>
-      
-      </Card>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="justify-content-end">
+            <NavDropdown title="Bikes" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+            </NavDropdown>
+            <Nav.Link href="#link">Journal</Nav.Link>
+              <Nav.Link href="#link">Process</Nav.Link>
+          </Nav>
+          
+        </Navbar.Collapse>
+      </Navbar>
+        
         
     )
 }
