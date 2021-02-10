@@ -26,7 +26,7 @@ function HomePage() {
       <Nav.Link eventKey="link-2"className="bikes">CONTACT</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Button>
+      <Button className="order-now">
         order a bike
       </Button>
     </Nav.Item>

@@ -64,5 +64,25 @@
   display: block;
   background: transparent;
   font-size: 30.33px;
+  cursor: pointer;
+  text-decoration: none;
   
+}
+.order-now {
+  color: #fff;
+  background-color: #ff427e;
+  border-color: #ff427e;
+  cursor: pointer;
+  font-weight: 700px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover 
+{
+   text-decoration:none; 
+   cursor:pointer;  
 }
