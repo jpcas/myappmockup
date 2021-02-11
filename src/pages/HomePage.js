@@ -1,22 +1,28 @@
 import React from 'react';
-import "../App.css";
-
+import {Nav} from 'react-bootstrap';
+import '../App.css';
 
 function HomePage() {
     return (
-<div >
-    <img
-        src="https://i.imgur.com/DFjZCkS.png"
-        class="navbar-logo"
-        alt="React Bootstrap logo"
-      />
-    <div className="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-    </div>
-</div>
+<>
+
+    <Nav className="justify-content-end">
+    <Nav.Item >
+      <Nav.Link href="/home" className="bikes">BIKES</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="link-1" className="bikes">JOURNAL</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="link-2" className="bikes">PROCESS</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="disabled" disabled>
+        Disabled
+      </Nav.Link>
+    </Nav.Item>
+  </Nav>
+</>
         
         
     )
