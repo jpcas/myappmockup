@@ -16,8 +16,8 @@
   /* background-size: cover;  */
  */
 
-/* .bikes {
-  font-family: 'Heebo', sans-serif;
+.topnav {
+  /* font-family: 'Heebo', sans-serif;
   color: #ffd000;
   font-weight: 700;
   font-style: normal;
@@ -32,12 +32,8 @@
   flex: 1 0 67%;
   width: 100%;
   box-sizing: border-box;
-  padding-top: 1.9vw;
-
-  
-  
-  
-} */
+  padding-top: 1.9vw; */
+}
 /* .order-now {
   color: #fff;
   background-color: #ff427e;
@@ -47,7 +43,7 @@
   
 } */
 
-a {
+/* a {
   text-decoration: none;
 }
 
@@ -55,4 +51,4 @@ a:hover
 {
    text-decoration:none; 
    cursor:pointer;  
-}
+} */
