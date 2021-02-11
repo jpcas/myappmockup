@@ -2,5 +2,34 @@
 
 
 .bikes {
-  font-size: 100px;
+  font-family: 'Heebo', sans-serif;
+  color: #ffd000;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .01em;
+  text-transform: none;
+  line-height: 1.1em;
+  display: block;
+  background: transparent;
+  font-size: 30.33px;
 }
+
+.order-button {
+    font-family: 'Heebo';
+    color: #fff;
+    background-color: #ff427e;
+    border-color: #ff427e;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: 81px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* .background-home {
+  background-image: url('https://i.imgur.com/CWeKPSu.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
