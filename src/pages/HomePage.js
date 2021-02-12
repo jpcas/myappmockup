@@ -42,7 +42,11 @@ function HomePage() {
     We build custom performance bicycles in the storied Andes Mountains of Colombia, one of the most cycling-crazed places on Earth. 
     </Card.Text>
   </Card.Body>
-</Card>       
+  <Card.Body className="welcome-colombia">
+    <Card.Title className="bienvenidos">!Bienvenidos a Colombia!</Card.Title> 
+  </Card.Body>
+</Card>  
+     
     )
 }
 
