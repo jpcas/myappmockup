@@ -33,10 +33,12 @@ function HomePage() {
       </Button>    
   </Nav>
   </Card.ImgOverlay>
-  <Card.Body>
+  <Card.Body className="two-card">
     <Card.Title className="two-wheels">Make fun on two wheels</Card.Title>
     <Card.Text className="two-paragraph">
     Scarab is a new take on a custom bicycle. It should be easy. It should be fun. It should make the rider feel good. And it should be as socially and environmentally responsible as possible.
+    </Card.Text>
+    <Card.Text className="two-paragraph">
     We build custom performance bicycles in the storied Andes Mountains of Colombia, one of the most cycling-crazed places on Earth. 
     </Card.Text>
   </Card.Body>

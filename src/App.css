@@ -40,10 +40,19 @@
   display: block;
   font-size: calc((5 - 1) * 1.2vw + 1rem);
   white-space: pre-wrap;
+  color: white;
 }
 .two-paragraph {
+  color: white;
   text-align: center;
   font: 18.72px;
   margin: 13px 0px 0px;
-  font-family: monotype-grotesque;
+  font-weight: 700px;
+  letter-spacing: .01em;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.two-card {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
