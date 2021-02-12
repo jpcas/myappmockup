@@ -33,3 +33,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
+.two-wheels {
+  text-align: center;
+  font-style: italic;
+  display: block;
+  font-size: calc((5 - 1) * 1.2vw + 1rem);
+  white-space: pre-wrap;
+}
+.two-paragraph {
+  text-align: center;
+  font: 18.72px;
+  margin: 13px 0px 0px;
+  font-family: monotype-grotesque;
+}
