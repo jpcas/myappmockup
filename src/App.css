@@ -68,3 +68,16 @@
   white-space: pre-wrap;
   font-size: 3rem;
 }
+
+.bike-card {
+  background-color: #ff427e;
+}
+.bike-title {
+  text-align: center;
+  white-space: pre-wrap;
+  transition-timing-function: ease;
+  transition-duration: 0.9s;
+  transition-delay: 0.312676s;
+  line-height: .88;
+
+}

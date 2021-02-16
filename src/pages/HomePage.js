@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav, Button, Card, Container, Row, Col, Image} from 'react-bootstrap';
+import {Nav, Button, Card, Row, Col, Image} from 'react-bootstrap';
 import '../App.css';
 
 function HomePage() {
@@ -45,8 +45,8 @@ function HomePage() {
   <Card.Body className="welcome-colombia">
     <Card.Text className="welcome-text">!Bienvenidos a Colombia!</Card.Text> 
   </Card.Body>
-  <Container>
-    <h1>BIKES</h1>
+  <Card.Body className="bike-card">
+    <h1 className="bike-title">BIKES</h1>
   <Row>
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/PFsVf8D.jpg" thumbnail />
@@ -67,7 +67,7 @@ function HomePage() {
     </Card.Text>
     </Col>
   </Row>
-</Container>
+</Card.Body>
 </Card>  
 
      
