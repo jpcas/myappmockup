@@ -56,3 +56,15 @@
 .two-card {
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
+
+.welcome-colombia {
+  background-image: url('https://i.imgur.com/QglHMHu.jpg');
+}
+
+.welcome-text {
+  text-align: center;
+  color: #ff7b3d;;
+  font-weight: bold;
+  white-space: pre-wrap;
+  font-size: 3rem;
+}
