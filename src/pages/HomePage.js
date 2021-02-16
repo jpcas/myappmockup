@@ -46,15 +46,25 @@ function HomePage() {
     <Card.Text className="welcome-text">!Bienvenidos a Colombia!</Card.Text> 
   </Card.Body>
   <Container>
+    <h1>BIKES</h1>
   <Row>
     <Col xs={6} md={4}>
-      <Image src="holder.js/171x180" rounded />
+      <Image src="https://i.imgur.com/PFsVf8D.jpg" thumbnail />
+      <Card.Text>
+          PARAMO
+    </Card.Text>
     </Col>
     <Col xs={6} md={4}>
-      <Image src="holder.js/171x180" thumbnail />
+      <Image src="https://i.imgur.com/GX2w96Y.jpeg" thumbnail />
+      <Card.Text>
+          LETRAS
+    </Card.Text>
     </Col>
     <Col xs={6} md={4}>
-      <Image src="holder.js/171x180" thumbnail />
+      <Image src="https://i.imgur.com/FoNrVEm.jpeg" thumbnail />
+      <Card.Text>
+          LINEA
+    </Card.Text>
     </Col>
   </Row>
 </Container>
