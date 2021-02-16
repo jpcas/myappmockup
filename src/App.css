@@ -79,5 +79,13 @@
   transition-duration: 0.9s;
   transition-delay: 0.312676s;
   line-height: .88;
+  color: #ffd000;
+  font-size: calc((6 - 1) * 1.2vw + 1rem);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  display: block;
+  overflow-wrap: break-word;
+
+
 
 }

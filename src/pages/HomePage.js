@@ -50,20 +50,19 @@ function HomePage() {
   <Row>
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/PFsVf8D.jpg" thumbnail />
-      <Card.Text>
-          PARAMO
-    </Card.Text>
+    
+      <Card.Link href="#">PARAMO</Card.Link>
     </Col>
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/GX2w96Y.jpeg" thumbnail />
-      <Card.Text>
-          LETRAS
+      <Card.Text>   
+      <Card.Link href="#">LETRAS</Card.Link>
     </Card.Text>
     </Col>
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/FoNrVEm.jpeg" thumbnail />
-      <Card.Text>
-          LINEA
+      <Card.Text href="#">
+      <Card.Link href="#">LINEA</Card.Link>
     </Card.Text>
     </Col>
   </Row>
