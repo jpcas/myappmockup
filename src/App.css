@@ -85,7 +85,19 @@
   font-weight: 700;
   display: block;
   overflow-wrap: break-word;
+}
 
+.bike-subtitle {
+  text-align: center;
+  color: white;
+  white-space: pre-wrap;
+  transition-timing-function: ease;
+  transition-duration: 0.9s;
+  transition-delay: 0.329577s;
+  font-size: 20px;
+}
 
-
+.typebike-title {
+  font-size: 20px;
+  text-align: center;
 }

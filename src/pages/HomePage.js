@@ -50,20 +50,26 @@ function HomePage() {
   <Row>
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/PFsVf8D.jpg" thumbnail />
-    
-      <Card.Link href="#">PARAMO</Card.Link>
+      <Card.Text>
+      <Card.Link href="#" className="typebike-title">PARAMO</Card.Link>
+      </Card.Text>
+      <Card.Subtitle className="bike-subtitle">GRAVEL | ALL-ROAD</Card.Subtitle>
     </Col>
+  
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/GX2w96Y.jpeg" thumbnail />
       <Card.Text>   
       <Card.Link href="#">LETRAS</Card.Link>
     </Card.Text>
+    <Card.Subtitle className="bike-subtitle">ROAD | ALL-PURPOSE</Card.Subtitle>
+
     </Col>
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/FoNrVEm.jpeg" thumbnail />
       <Card.Text href="#">
       <Card.Link href="#">LINEA</Card.Link>
     </Card.Text>
+    <Card.Subtitle className="bike-subtitle">ROAD | CLASSIC</Card.Subtitle>
     </Col>
   </Row>
 </Card.Body>
