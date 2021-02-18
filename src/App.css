@@ -120,8 +120,8 @@
 
 .sign-up {
   background-image: url('https://i.imgur.com/PFsVf8D.jpg');
+  padding: 36px 39px;  
+  box-sizing: content-box;
   background-repeat: no-repeat;
-  width: 100%;
-
 }
 
