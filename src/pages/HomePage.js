@@ -73,7 +73,9 @@ function HomePage() {
     </Col>
   </Row>
 </Card.Body>
-<Card.Img className="signup-image" src="https://i.imgur.com/i9DjH3O.jpeg" alt="Card image" />
+<Card.Body className="sign-up">
+    <Card.Text className="sign-up">!Bienvenidos a Colombia!</Card.Text> 
+  </Card.Body>
 </Card> 
  
 

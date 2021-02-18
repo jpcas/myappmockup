@@ -118,9 +118,10 @@
   padding: 20px;
 }
 
-.signup-image {
-  position: relative;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
+.sign-up {
+  background-image: url('https://i.imgur.com/PFsVf8D.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+
 }
+
