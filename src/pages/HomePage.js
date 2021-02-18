@@ -51,7 +51,7 @@ function HomePage() {
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/PFsVf8D.jpg" thumbnail />
       <Card.Text className="name">
-      <Card.Link href="#" className="name">PARAMO</Card.Link>
+      <Card.Link href="#" className="name"><u>PARAMO</u></Card.Link>
       </Card.Text>
       <Card.Subtitle className="bike-subtitle">GRAVEL | ALL-ROAD</Card.Subtitle>
     </Col>
@@ -59,7 +59,7 @@ function HomePage() {
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/GX2w96Y.jpeg" thumbnail />
       <Card.Text className="name">   
-      <Card.Link href="#" className="name">LETRAS</Card.Link>
+      <Card.Link href="#" className="name"><u>LETRAS</u></Card.Link>
     </Card.Text>
     <Card.Subtitle className="bike-subtitle">ROAD | ALL-PURPOSE</Card.Subtitle>
 
@@ -67,7 +67,7 @@ function HomePage() {
     <Col xs={6} md={4}>
       <Image src="https://i.imgur.com/FoNrVEm.jpeg" thumbnail />
       <Card.Text href="#" className="name">
-      <Card.Link className="name" href="#">LINEA</Card.Link>
+      <Card.Link className="name" href="#"><u>LINEA</u></Card.Link>
     </Card.Text>
     <Card.Subtitle className="bike-subtitle">ROAD | CLASSIC</Card.Subtitle>
     </Col>
