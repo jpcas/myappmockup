@@ -117,3 +117,10 @@
   -webkit-font-smoothing: antialiased;
   padding: 20px;
 }
+
+.signup-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
