@@ -82,7 +82,7 @@ function HomePage() {
         Email Address
       </Form.Label>
       <Form.Control
-        className="mb-2"
+        className="control"
         id="inlineFormInput"
         placeholder="Email Address"
       />

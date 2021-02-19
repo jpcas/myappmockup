@@ -133,3 +133,8 @@
   font-size: 2rem;
 }
 
+.mb-2 {
+  background-color: #ffd000 !important;
+  color: #000 !important;
+  
+}
