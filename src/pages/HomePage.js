@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav, Button, Card, Row, Col, Image, Form} from 'react-bootstrap';
+import {Nav, Button, Card, Row, Col, Image, Form } from 'react-bootstrap';
 import '../App.css';
 
 function HomePage() {
@@ -74,9 +74,8 @@ function HomePage() {
   </Row>
 </Card.Body>
 <Card.Body className="sign-up">
-    <Card.Text className="sign-up">Subscribe.Please.</Card.Text>
-  </Card.Body>
-<Form>
+    <Card.Text className="sign-up">Subscribe.Please. </Card.Text>
+    <Form>
   <Form.Row className="align-items-center">
     <Col xs="auto">
       <Form.Label htmlFor="inlineFormInput" srOnly>
@@ -86,17 +85,23 @@ function HomePage() {
         className="mb-2"
         id="inlineFormInput"
         placeholder="Email Address"
-        />
-       <Col xs="auto">
+      />
+    </Col>
+    <Col xs="auto">
+     
+     
+    </Col>
+    <Col xs="auto">
+    </Col>
+    <Col xs="auto">
       <Button type="submit" className="mb-2">
-        Submit
+        Sign Up
       </Button>
     </Col>
-    </Col>
-    
   </Form.Row>
-  
 </Form>
+  </Card.Body>
+  
 </Card> 
  
 
