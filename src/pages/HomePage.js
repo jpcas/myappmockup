@@ -73,8 +73,8 @@ function HomePage() {
     </Col>
   </Row>
 </Card.Body>
-<Card.Body className="sign-up">
-    <Card.Text className="sign-up">Subscribe.Please. </Card.Text>
+<Card.Body className="subscribe-card">
+    <Card.Text className="subscribe">Subscribe.Please. </Card.Text>
     <Form>
   <Form.Row className="align-items-center">
     <Col xs="auto">

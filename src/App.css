@@ -118,7 +118,7 @@
   padding: 20px;
 }
 
-.sign-up {
+.subscribe-card {
   background: blue;
   padding: 36px 39px;  
   box-sizing: content-box;
@@ -138,3 +138,9 @@
   color: #000 !important;
   
 }
+
+/* .subscribe {
+  display: flex;
+  align-items: end;
+  padding: 50px;
+} */
