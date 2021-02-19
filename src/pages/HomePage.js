@@ -74,8 +74,16 @@ function HomePage() {
   </Row>
 </Card.Body>
 <Card.Body className="sign-up">
-    <Card.Text className="sign-up">!Bienvenidos a Colombia!</Card.Text> 
+    <Card.Text className="sign-up">Subscribe.Please.</Card.Text>
+    <Card.Text className="sign-up">Only Useful things to read</Card.Text> 
   </Card.Body>
+<Form>
+  <Form.Row className="align-items-center">
+    <Col xs="auto">
+      <Form
+    </Col>
+  </Form.Row>
+</Form>
 </Card> 
  
 
